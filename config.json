@@ -1,0 +1,24 @@
+{
+  "keys": {
+    "3": {
+      "label": "Xmas Mode On",
+      "color": [0, 100, 0]
+    },
+    "7": {
+      "label": "Xmas Mode Off",
+      "color": [100, 0, 0]
+    },
+    "6": {
+      "label": "Basement Lamp",
+      "color": [20, 165, 100]
+    },
+    "9": {
+      "label": "Basement Ceiling",
+      "color": [20, 20, 100]
+    }
+  },
+  "settings": {
+    "off_brightness": 20,
+    "heartbeat_interval": 5.0
+  }
+}

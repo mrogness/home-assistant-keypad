@@ -1,0 +1,28 @@
+{
+  "home_assistant": {
+    "url": "YOUR_HA_URL",
+    "token": "YOUR_HA_LLA_TOKEN"
+  },
+  "serial": {
+    "port_macos": "/dev/cu.usbmodem1101",
+    "port_linux": "/dev/ttyACM0",
+    "baud_rate": 115200
+  },
+  "retry_delay": 5,
+  "max_retries": null,
+  "quiet_mode": true,
+  "keys": {
+    "3": {
+      "entity_id": "script.xmas_mode_on_living_room"
+    },
+    "2": {
+      "entity_id": "script.xmas_mode_off_living_room"
+    },
+    "6": {
+      "entity_id": "light.w41_n15a"
+    },
+    "9": {
+      "entity_id": "input_boolean.xmas_mode_toggle"
+    }
+  }
+}
