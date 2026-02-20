@@ -223,7 +223,7 @@ Say we want to add a light switch toggle to the keypad. We need to set this on b
 ## Architecture
 (using Key index 3 as an example)
 ```
-┌─────────────┐         USB Serial          ┌──────────────┐
+┌─────────────┐         USB Serial           ┌──────────────┐
 │ Keybow 2040 │ ◄──────────────────────────► │  HA Bridge   │
 │             │  TOGGLE:3                    │  (Python)    │
 │  - Loads    │  HEARTBEAT                   │              │
